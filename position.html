@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        div{
+            right:30px;
+            border:3px solid #73ad21
+        }
+        div.absolute{
+            position:absolute;
+            left:50px; 
+            border:3px solid blue;
+        }
+            div.fixed { 
+                position:fixed;
+                top:0;
+                right:20 px;
+                width:300px;
+                border:3px solid #73ad21
+            }
+            div.sticky{
+                position:sicky;
+                top:1px;
+                left:20px;
+                width:100px;
+                border:3px solid#73ad21
+            }
+                </style>
+    </head>
+    <body>
+<!--change the position to show the diffrence
+static
+relative
+absolute
+fixed
+sticky-->
+<h2>positioning</h2>
+<div>
+    div with no position property
+</div>
+<div class="sticky"></div>
+    div with sticky position property
+<div class="relative">
+    this div element has position: relative;
+    <div class="absolute"></div>
+    absolute class div
+<div class="fixed">
+    div with fix position property
+</div>
+</div>
+    </body>
+</html>
